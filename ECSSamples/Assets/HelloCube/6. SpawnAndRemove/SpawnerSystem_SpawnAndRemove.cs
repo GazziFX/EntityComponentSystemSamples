@@ -37,7 +37,7 @@ public class SpawnerSystem_SpawnAndRemove : SystemBase
         // perform such changes on the main thread after the Job has finished. Command buffers allow you to perform
         // any, potentially costly, calculations on a worker thread, while queuing up the actual insertions and
         // deletions for later.
-        var commandBuffer = m_EntityCommandBufferSystem.CreateCommandBuffer().ToConcurrent();
+        var commandBuffer = m_EntityCommandBufferSystem.CreateCommandBuffer().AsParallelWriter();
         
         // Schedule the job that will add Instantiate commands to the EntityCommandBuffer.
         // Since this job only runs on the first frame, we want to ensure Burst compiles it before running to get the best performance (3rd parameter of WithBurst)

@@ -21,7 +21,7 @@ public class LifeTimeSystem : SystemBase
     // OnUpdate runs on the main thread.
     protected override void OnUpdate()
     {
-        var commandBuffer = m_Barrier.CreateCommandBuffer().ToConcurrent();
+        var commandBuffer = m_Barrier.CreateCommandBuffer().AsParallelWriter();
 
         var deltaTime = Time.DeltaTime;
         Entities.ForEach((Entity entity, int nativeThreadIndex, ref LifeTime lifetime) =>

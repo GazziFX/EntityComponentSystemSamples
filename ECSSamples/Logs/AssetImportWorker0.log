@@ -1,0 +1,1343 @@
+Using pre-set license
+Built from 'trunk' branch; Version is '2020.2.0a19 (8037ac78137e) revision 8402860'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'ru' Physical Memory: 16333 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.0a19\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Git/EntityComponentSystemSamples/ECSSamples
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55008
+Successfully changed project path to: D:/Git/EntityComponentSystemSamples/ECSSamples
+D:/Git/EntityComponentSystemSamples/ECSSamples
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 38.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.0a19 (8037ac78137e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Git/EntityComponentSystemSamples/ECSSamples/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   26.21.14.4587
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000955 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.681 seconds
+Registering precompiled user dll's ...
+Registered in 0.049723 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Git\EntityComponentSystemSamples\ECSSamples\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 38.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.795 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+RefreshInternalV2 is called before InitialScriptRefresh has been called and asset database isn't fully initialized.
+
+Refresh completed in 0.000273 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2606 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.5 MB.
+System memory in use after: 119.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3036.
+Total: 2.914300 ms (FindLiveObjects: 0.420700 ms CreateObjectMapping: 0.068200 ms MarkObjects: 2.384100 ms  DeleteObjects: 0.040900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/HelloCube/5. SpawnFromEntity/SpawnerSystem_FromEntity.cs
+  artifactKey: Guid(96a98c5cf0de24433ad90fa9b6ed3c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloCube/5. SpawnFromEntity/SpawnerSystem_FromEntity.cs using Guid(96a98c5cf0de24433ad90fa9b6ed3c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0bb30cc8ceb59a7faa07f42a384c303') in 0.016706 seconds
+  Import took 0.020666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/HelloCube/6. SpawnAndRemove/SpawnerSystem_SpawnAndRemove.cs
+  artifactKey: Guid(5d1d794354b8f1f4bb610ccf7309292f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloCube/6. SpawnAndRemove/SpawnerSystem_SpawnAndRemove.cs using Guid(5d1d794354b8f1f4bb610ccf7309292f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beab752504639e609b37d29316c79b18') in 0.024440 seconds
+  Import took 0.028112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/HelloCube/6. SpawnAndRemove/LifeTimeSystem.cs
+  artifactKey: Guid(7b110dd428f37254aa9e8e79f397ea47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloCube/6. SpawnAndRemove/LifeTimeSystem.cs using Guid(7b110dd428f37254aa9e8e79f397ea47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfcb596e67ebda7ba3b137b78866a765') in 0.000952 seconds
+  Import took 0.004634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.961594 seconds.
+  path: Assets/Advanced/Boids/SampleAssets/Materials/Fish.mat
+  artifactKey: Guid(a775bbb190ee2594d99a10542e99e940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/SampleAssets/Materials/Fish.mat using Guid(a775bbb190ee2594d99a10542e99e940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9d42133dbfaf8e2241867fdc0932c9') in 0.288126 seconds
+  Import took 0.292276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Advanced/Boids/SampleAssets/Materials/Seaweed.mat
+  artifactKey: Guid(400371aa39084064ca1241946b9acbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/SampleAssets/Materials/Seaweed.mat using Guid(400371aa39084064ca1241946b9acbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a831d44e996ba23740ebe1ed490f73d') in 0.005241 seconds
+  Import took 0.008809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Advanced/Boids/SampleAssets/Materials/OuterWall2.mat
+  artifactKey: Guid(e0cdd8e480b124de0903a08245f96788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/SampleAssets/Materials/OuterWall2.mat using Guid(e0cdd8e480b124de0903a08245f96788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8e864433ae13ccea055105df0eccc1') in 0.161685 seconds
+  Import took 0.165287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Advanced/Boids/SampleAssets/Materials/Surface.mat
+  artifactKey: Guid(565f0833833a99244b98a7bdb97f3b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/SampleAssets/Materials/Surface.mat using Guid(565f0833833a99244b98a7bdb97f3b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a21063a3cafe22942c5c256a547c88b') in 0.005036 seconds
+  Import took 0.008626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Advanced/Boids/SampleAssets/Materials/Wall1.mat
+  artifactKey: Guid(ad42969049d004d679389f4afe451f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/SampleAssets/Materials/Wall1.mat using Guid(ad42969049d004d679389f4afe451f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db7c37981766c5bbd884572527ffd56') in 0.005125 seconds
+  Import took 0.009038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Advanced/Boids/SampleAssets/Materials/Fish.mat
+  artifactKey: Guid(a775bbb190ee2594d99a10542e99e940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/SampleAssets/Materials/Fish.mat using Guid(a775bbb190ee2594d99a10542e99e940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9d42133dbfaf8e2241867fdc0932c9') in 0.006482 seconds
+  Import took 0.010238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Advanced/Boids/SampleAssets/Materials/OuterWall1.mat
+  artifactKey: Guid(e970940527c5c49748840ccc8b04a881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/SampleAssets/Materials/OuterWall1.mat using Guid(e970940527c5c49748840ccc8b04a881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8800ee7602002209b421660acb56387') in 0.007116 seconds
+  Import took 0.010952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Advanced/Boids/SampleAssets/Materials/Floor1.mat
+  artifactKey: Guid(dac883fced751482f8e270bade47f891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/SampleAssets/Materials/Floor1.mat using Guid(dac883fced751482f8e270bade47f891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c063fa3b20efd4734ead30fd15eda7a2') in 0.004854 seconds
+  Import took 0.008498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Advanced/Boids/SampleAssets/Materials/Plankton.mat
+  artifactKey: Guid(cea6ccf69d418cf47a7776d7d11b742d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/SampleAssets/Materials/Plankton.mat using Guid(cea6ccf69d418cf47a7776d7d11b742d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35254abd6526b52ce5f5d7e5488f531d') in 0.026534 seconds
+  Import took 0.030116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Advanced/Boids/SampleAssets/Materials/RedFish.mat
+  artifactKey: Guid(b79e2335100eeca459a251721a86323d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/SampleAssets/Materials/RedFish.mat using Guid(b79e2335100eeca459a251721a86323d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24188a951f3060dd0b0b580f51eacd89') in 0.006017 seconds
+  Import took 0.009658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Advanced/Boids/SampleAssets/Materials/InstanceMat.mat
+  artifactKey: Guid(32bf30f90a6a049be8fb2aca13ddebb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/SampleAssets/Materials/InstanceMat.mat using Guid(32bf30f90a6a049be8fb2aca13ddebb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284f92ff111dc1f44be0a452c0758a78') in 0.005729 seconds
+  Import took 0.009310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Advanced/Boids/SampleAssets/Materials/Shark.mat
+  artifactKey: Guid(fa2ef77783c3f5348ad83ca38aee6a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/SampleAssets/Materials/Shark.mat using Guid(fa2ef77783c3f5348ad83ca38aee6a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b47c165582cd324d1c9eb2cba9a4a5d') in 0.017903 seconds
+  Import took 0.021958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Advanced/Boids/SampleAssets/Materials/Rock.mat
+  artifactKey: Guid(6c67e8a34c4b6484e8d87a3ad3f2eacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/SampleAssets/Materials/Rock.mat using Guid(6c67e8a34c4b6484e8d87a3ad3f2eacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a787b3ae7e95389a92b48cae711380ee') in 0.190574 seconds
+  Import took 0.194245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Advanced/Boids/SampleAssets/Materials/Glow.mat
+  artifactKey: Guid(95d347dd8567cf2459593412526a5807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/SampleAssets/Materials/Glow.mat using Guid(95d347dd8567cf2459593412526a5807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba148d8bf6c7b7cb5ded2d17ebd6cca') in 0.024052 seconds
+  Import took 0.027605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Advanced/Boids/SampleAssets/Materials/StartCorner.mat
+  artifactKey: Guid(be7dd83f5567e4afea648cc7dfa2c12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/SampleAssets/Materials/StartCorner.mat using Guid(be7dd83f5567e4afea648cc7dfa2c12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd610f5090bbb092b0a475e82efd8db') in 0.004726 seconds
+  Import took 0.008410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Advanced/Boids/SampleAssets/Materials/Glow.mat
+  artifactKey: Guid(95d347dd8567cf2459593412526a5807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/SampleAssets/Materials/Glow.mat using Guid(95d347dd8567cf2459593412526a5807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba148d8bf6c7b7cb5ded2d17ebd6cca') in 0.004441 seconds
+  Import took 0.007956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Advanced/Boids/SampleAssets/Materials/StartCorner.mat
+  artifactKey: Guid(be7dd83f5567e4afea648cc7dfa2c12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/SampleAssets/Materials/StartCorner.mat using Guid(be7dd83f5567e4afea648cc7dfa2c12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd610f5090bbb092b0a475e82efd8db') in 0.005027 seconds
+  Import took 0.009597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.749367 seconds.
+  path: Assets/Advanced/Boids/SampleAssets/Animation
+  artifactKey: Guid(90b52b7399ac400438ded1d7eeaf9934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/SampleAssets/Animation using Guid(90b52b7399ac400438ded1d7eeaf9934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ba52a284f8dab3db124c9b4b017ef2') in 0.000860 seconds
+  Import took 0.004744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Advanced/Boids/SampleAssets/TestBoidFish.prefab
+  artifactKey: Guid(009834b439a0e455b843299085c2fbff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/SampleAssets/TestBoidFish.prefab using Guid(009834b439a0e455b843299085c2fbff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2403b51cc09007e9cea6aded383491db') in 0.013577 seconds
+  Import took 0.017180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Advanced/Boids/SampleAssets/Textures
+  artifactKey: Guid(4aa04958190fd9f41971abf746dbc945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/SampleAssets/Textures using Guid(4aa04958190fd9f41971abf746dbc945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb45717b67314c030a3686f60105c4e') in 0.000788 seconds
+  Import took 0.003759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Advanced/Boids/SampleAssets/Materials
+  artifactKey: Guid(b9d6fb67e67883549a1ed13addcc203a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/SampleAssets/Materials using Guid(b9d6fb67e67883549a1ed13addcc203a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389dfead4acc7de1b44584e1ed29c33f') in 0.000821 seconds
+  Import took 0.003855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Advanced/Boids/SampleAssets/UnderwaterTerrainLayer.terrainlayer
+  artifactKey: Guid(75326d59adfe24f54980a9e0a72569cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/SampleAssets/UnderwaterTerrainLayer.terrainlayer using Guid(75326d59adfe24f54980a9e0a72569cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5582dd5dc942d91e97f9450a86d1ce49') in 0.011019 seconds
+  Import took 0.014889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Advanced/Boids/SampleAssets/Models
+  artifactKey: Guid(166dce592d93c024eb1f0f32a06077a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/SampleAssets/Models using Guid(166dce592d93c024eb1f0f32a06077a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88723e1dd5aacc7cbac0fc311079c3bb') in 0.000878 seconds
+  Import took 0.003923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Advanced/Boids/SampleAssets/Shaders
+  artifactKey: Guid(cc444ddf06b01914ca10fa14376d927d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/SampleAssets/Shaders using Guid(cc444ddf06b01914ca10fa14376d927d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e20f5661ea8245eed41830d117a19c1') in 0.000840 seconds
+  Import took 0.004158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Advanced/Boids/SampleAssets/UnderwaterTerrain.asset
+  artifactKey: Guid(a5eaca1d6f0198f4a96edd47a4aa338d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/SampleAssets/UnderwaterTerrain.asset using Guid(a5eaca1d6f0198f4a96edd47a4aa338d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbc52e9275e7a23801fff919ae6c35d') in 0.077500 seconds
+  Import took 0.081176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Advanced/Boids/SampleAssets/TestBoidFish 1.prefab
+  artifactKey: Guid(b0a4152090be2495380e76763a66a3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/SampleAssets/TestBoidFish 1.prefab using Guid(b0a4152090be2495380e76763a66a3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f259444014c00f1fb40286b6cd32b02') in 0.006405 seconds
+  Import took 0.009731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.487125 seconds.
+  path: Assets/StressTests/SubSceneTests
+  artifactKey: Guid(d43731612f42c404286c9d79624cb3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StressTests/SubSceneTests using Guid(d43731612f42c404286c9d79624cb3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108bbfaafdfebf8f54b89270d846d599') in 0.000925 seconds
+  Import took 0.004864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Assets/StressTests/SubSceneTests
+  artifactKey: Guid(d43731612f42c404286c9d79624cb3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StressTests/SubSceneTests using Guid(d43731612f42c404286c9d79624cb3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108bbfaafdfebf8f54b89270d846d599') in 0.000873 seconds
+  Import took 0.004133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.057001 seconds.
+  path: Assets/StressTests/HybridComponent/CubePrefab.prefab
+  artifactKey: Guid(9591e81082d9c8e468dfb4222225050e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StressTests/HybridComponent/CubePrefab.prefab using Guid(9591e81082d9c8e468dfb4222225050e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3930c50c0d520b9dca4462a7faa0f7c') in 0.063973 seconds
+  Import took 0.068008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.532411 seconds.
+  path: Assets/StressTests/HybridComponent/CubePrefab.prefab
+  artifactKey: Guid(9591e81082d9c8e468dfb4222225050e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StressTests/HybridComponent/CubePrefab.prefab using Guid(9591e81082d9c8e468dfb4222225050e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16711d5add33e30e8f6f326d1f4f7dbb') in 0.004942 seconds
+  Import took 0.009304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.071300 seconds.
+  path: Assets/StressTests/HybridComponent/CubePrefab.prefab
+  artifactKey: Guid(9591e81082d9c8e468dfb4222225050e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StressTests/HybridComponent/CubePrefab.prefab using Guid(9591e81082d9c8e468dfb4222225050e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845dd2e2e992acae2caf5d2de0ac7889') in 0.004695 seconds
+  Import took 0.008986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.634163 seconds.
+  path: Assets/HelloCube/4. SpawnFromMonoBehaviour/Cube.prefab
+  artifactKey: Guid(b678d09605cc9ae45872d43d90c2ae37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloCube/4. SpawnFromMonoBehaviour/Cube.prefab using Guid(b678d09605cc9ae45872d43d90c2ae37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de45b3d78e0a2b5a83793f86adc68bd4') in 0.004822 seconds
+  Import took 0.009010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.317696 seconds.
+  path: Assets/HelloCube/4. SpawnFromMonoBehaviour/Cube.prefab
+  artifactKey: Guid(b678d09605cc9ae45872d43d90c2ae37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloCube/4. SpawnFromMonoBehaviour/Cube.prefab using Guid(b678d09605cc9ae45872d43d90c2ae37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb45e785c8aa13f8c4067906fd9abb86') in 0.004627 seconds
+  Import took 0.008802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.929331 seconds.
+  path: Assets/HelloCube/1. ForEach/ForEach.unity
+  artifactKey: Guid(f05fdaec0e58f4b9cb7cbc815696286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloCube/1. ForEach/ForEach.unity using Guid(f05fdaec0e58f4b9cb7cbc815696286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0001593720019a6efb07f9626012f5a') in 0.001381 seconds
+  Import took 0.005630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001666 seconds.
+  path: Assets/HelloCube/1. ForEach/ForEach.unity
+  artifactKey: Guid(f05fdaec0e58f4b9cb7cbc815696286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloCube/1. ForEach/ForEach.unity using Guid(f05fdaec0e58f4b9cb7cbc815696286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0001593720019a6efb07f9626012f5a') in 0.001168 seconds
+  Import took 0.004832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.865112 seconds.
+  path: Assets/SceneDependencyCache/e1369623c912420736902a6af3e763f7.sceneWithBuildSettings
+  artifactKey: Guid(e1369623c912420736902a6af3e763f7) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/e1369623c912420736902a6af3e763f7.sceneWithBuildSettings using Guid(e1369623c912420736902a6af3e763f7) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/StressTests/LODSubSceneTest/Spawner.unity additively'
+Loaded scene 'Assets/StressTests/LODSubSceneTest/Spawner.unity'
+	Deserialize:            0.749 ms
+	Integration:            1.014 ms
+	Integration of assets:  0.046 ms
+	Thread Wait Time:       26.337 ms
+	Total Operation Time:   28.146 ms
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+AssemblyPaths cannot be null or empty
+at <empty>:line 0
+
+ -> (artifact id: '254e288655eb8d0ecd9ba788f88a996f') in 0.452167 seconds
+  Import took 0.456389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.327964 seconds.
+  path: Assets/HelloCube/1. ForEach/ForEach.unity
+  artifactKey: Guid(f05fdaec0e58f4b9cb7cbc815696286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloCube/1. ForEach/ForEach.unity using Guid(f05fdaec0e58f4b9cb7cbc815696286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0877ed52e73d87d8e0fdb3fa119f722') in 0.001352 seconds
+  Import took 0.005421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.812849 seconds.
+  path: Assets/Advanced/Boids/Scripts/Boid.cs
+  artifactKey: Guid(8b9395869eb44dbb93861f0109adc039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/Scripts/Boid.cs using Guid(8b9395869eb44dbb93861f0109adc039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db520547b0270d708a522cf7e9efc20') in 0.000906 seconds
+  Import took 0.004784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Advanced/Boids/Scripts/SampledAnimationClip.cs
+  artifactKey: Guid(759d84a9e6ed43a494cf86000a8801e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/Scripts/SampledAnimationClip.cs using Guid(759d84a9e6ed43a494cf86000a8801e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44157375d23ec4cdd936a50dabc20ca7') in 0.024933 seconds
+  Import took 0.028314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Advanced/Boids/Scripts/BoidObstacleAuthoring.cs
+  artifactKey: Guid(67b5d1d5a1b646a2be980e4ba00d005b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/Scripts/BoidObstacleAuthoring.cs using Guid(67b5d1d5a1b646a2be980e4ba00d005b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04de15145a1b29a7f59c7a23f562ff5') in 0.000876 seconds
+  Import took 0.003925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Advanced/Boids/Scripts/BoidTargetAuthoring.cs
+  artifactKey: Guid(32ab98d3786342cc80f0f23f7c3bae44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/Scripts/BoidTargetAuthoring.cs using Guid(32ab98d3786342cc80f0f23f7c3bae44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf8216d0cadfa73623c4d6cbada4366') in 0.001012 seconds
+  Import took 0.004168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Advanced/Boids/Scripts/BoidConversion.cs
+  artifactKey: Guid(ef8105b17f9a4b9b9b5371955ac39b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/Scripts/BoidConversion.cs using Guid(ef8105b17f9a4b9b9b5371955ac39b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '930b3386ffd71a4c280cef451aa1795b') in 0.000843 seconds
+  Import took 0.004223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Advanced/Boids/Scripts/BoidAuthoring.cs
+  artifactKey: Guid(bff616740c8144f7b1e8ebad7fe8ed58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/Scripts/BoidAuthoring.cs using Guid(bff616740c8144f7b1e8ebad7fe8ed58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e29e141ff5812f7973598a4f902877') in 0.000937 seconds
+  Import took 0.004145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Advanced/Boids/Scripts/Samples.Boids.asmdef
+  artifactKey: Guid(461bf88d001204da2a2eb790910299f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/Scripts/Samples.Boids.asmdef using Guid(461bf88d001204da2a2eb790910299f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb7410bccc4a3225548a9ad317e2179') in 0.002168 seconds
+  Import took 0.005662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Advanced/Boids/Scripts/BoidSchool.cs
+  artifactKey: Guid(6cc9214da4a7487dbec81ad5b954c975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/Scripts/BoidSchool.cs using Guid(6cc9214da4a7487dbec81ad5b954c975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec35a7eb23c291be3f674e6945877400') in 0.000929 seconds
+  Import took 0.004014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Advanced/Boids/Scripts/BoidObstacle.cs
+  artifactKey: Guid(33ce991994a6c4305b324d5f4b9a9528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/Scripts/BoidObstacle.cs using Guid(33ce991994a6c4305b324d5f4b9a9528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ee43c2041cf024deee4be4a3d463ef') in 0.001051 seconds
+  Import took 0.004614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Advanced/Boids/Scripts/TransformRecorderAuthoring.cs
+  artifactKey: Guid(82fc8902aaed4a63a47fee155b5f98e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/Scripts/TransformRecorderAuthoring.cs using Guid(82fc8902aaed4a63a47fee155b5f98e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51742c894bf81cf58b2b7cd0bb11e85') in 0.000854 seconds
+  Import took 0.003974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Advanced/Boids/Scripts/BoidSchoolAuthoring.cs
+  artifactKey: Guid(7902971f5de2463dbf747e9fbf85a87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/Scripts/BoidSchoolAuthoring.cs using Guid(7902971f5de2463dbf747e9fbf85a87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f948b2c271027c587a9681c3f7c732e') in 0.000899 seconds
+  Import took 0.004153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Advanced/Boids/Scripts/BoidSystem.cs
+  artifactKey: Guid(6f6681713f08467484b1c2a7eb4bd06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/Scripts/BoidSystem.cs using Guid(6f6681713f08467484b1c2a7eb4bd06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a981301f5c1de612c55d095b6bad146') in 0.000896 seconds
+  Import took 0.004213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Advanced/Boids/Scripts/BoidTarget.cs
+  artifactKey: Guid(0f273f73c4f5b43cd8e975d6846122fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/Scripts/BoidTarget.cs using Guid(0f273f73c4f5b43cd8e975d6846122fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a392dd889d6f9d55fe3b54eb4f92892d') in 0.000855 seconds
+  Import took 0.003840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Advanced/Boids/Scripts/SampledAnimationClipPlaybackSystem.cs
+  artifactKey: Guid(98d3020807af4b6a8404a0cce54aeb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/Scripts/SampledAnimationClipPlaybackSystem.cs using Guid(98d3020807af4b6a8404a0cce54aeb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86137efd3842b7fa2a3f10878d4c6eff') in 0.000864 seconds
+  Import took 0.003883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.271095 seconds.
+  path: Assets/Advanced/Boids/Editor Default Resources
+  artifactKey: Guid(902198d88e7e4f04ab61b39c8f622b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/Editor Default Resources using Guid(902198d88e7e4f04ab61b39c8f622b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed25bf816ff9509e392a68fcbe979d2') in 0.000911 seconds
+  Import took 0.004643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Advanced/Boids/Boids.unity
+  artifactKey: Guid(d5f3505c0b377452db53363d84547627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/Boids.unity using Guid(d5f3505c0b377452db53363d84547627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff46030517069291339d506358cd826') in 0.001035 seconds
+  Import took 0.003797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Advanced/Boids/PostProcessing
+  artifactKey: Guid(4ef6494d129ddad4a97fab70339534ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/PostProcessing using Guid(4ef6494d129ddad4a97fab70339534ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ee19cb536cb3b61b8ad86f77f29e17') in 0.000848 seconds
+  Import took 0.004399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Advanced/Boids/Standard Assets
+  artifactKey: Guid(2b09ece9b827dd74c832a6a7fa2e5b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/Standard Assets using Guid(2b09ece9b827dd74c832a6a7fa2e5b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9642da60d522d4eb38c7c51918882cfa') in 0.000847 seconds
+  Import took 0.003936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Advanced/Boids/SampleAssets
+  artifactKey: Guid(4b35e9e2176f2b7459f55bebeec4a42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/SampleAssets using Guid(4b35e9e2176f2b7459f55bebeec4a42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71aacf24e0b692a3402a18d74c24a27') in 0.000878 seconds
+  Import took 0.004034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Advanced/Boids/Scenes
+  artifactKey: Guid(04aa587e119b676419769f5ba70dfb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/Scenes using Guid(04aa587e119b676419769f5ba70dfb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb51b4ca986a4b82bc1692c48a828ec') in 0.000894 seconds
+  Import took 0.004117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Advanced/Boids/Scripts
+  artifactKey: Guid(ff1653db136ece5409ca7ba8940d30f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids/Scripts using Guid(ff1653db136ece5409ca7ba8940d30f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b71ca54b343bc667fd0a1dcd26d8ed7') in 0.000945 seconds
+  Import took 0.004294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.534407 seconds.
+  path: Assets/Advanced/Boids
+  artifactKey: Guid(7642b9035937f244599008963a2fec2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids using Guid(7642b9035937f244599008963a2fec2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9684309389b05214107fdd94044f5516') in 0.001309 seconds
+  Import took 0.005280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Advanced/SubsceneWithBuildConfigurations
+  artifactKey: Guid(2e3a819ec44c17c498ffdcaf1cf10603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/SubsceneWithBuildConfigurations using Guid(2e3a819ec44c17c498ffdcaf1cf10603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73cd65585393fc9e0246e2ac1f8530e7') in 0.000849 seconds
+  Import took 0.003840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Advanced/Boids
+  artifactKey: Guid(7642b9035937f244599008963a2fec2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advanced/Boids using Guid(7642b9035937f244599008963a2fec2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9684309389b05214107fdd94044f5516') in 0.000920 seconds
+  Import took 0.003973 seconds .
+

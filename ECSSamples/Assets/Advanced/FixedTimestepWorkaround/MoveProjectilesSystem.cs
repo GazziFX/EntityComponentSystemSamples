@@ -17,7 +17,7 @@ namespace Samples.FixedTimestepSystem
         [BurstCompile]
         struct MoveProjectileJob : IJobForEachWithEntity<ProjectileSpawnTime, Translation>
         {
-            public EntityCommandBuffer.Concurrent Commands;
+            public EntityCommandBuffer.ParallelWriter Commands;
             public float TimeSinceLoad;
             public float ProjectileSpeed;
 
@@ -42,7 +42,7 @@ namespace Samples.FixedTimestepSystem
         {
             var jobHandle = new MoveProjectileJob()
             {
-                Commands = m_beginSimEcbSystem.CreateCommandBuffer().ToConcurrent(),
+                Commands = m_beginSimEcbSystem.CreateCommandBuffer().AsParallelWriter(),
                 TimeSinceLoad = (float)Time.ElapsedTime,
                 ProjectileSpeed = 5.0f,
             }.Schedule(this, inputDependencies);

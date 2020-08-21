@@ -23,8 +23,8 @@ public class RotationSpeedSystem_IJobChunk : SystemBase
     struct RotationSpeedJob : IJobChunk
     {
         public float DeltaTime;
-        public ArchetypeChunkComponentType<Rotation> RotationType;
-        [ReadOnly] public ArchetypeChunkComponentType<RotationSpeed_IJobChunk> RotationSpeedType;
+        public ComponentTypeHandle<Rotation> RotationType;
+        [ReadOnly] public ComponentTypeHandle<RotationSpeed_IJobChunk> RotationSpeedType;
 
         public void Execute(ArchetypeChunk chunk, int chunkIndex, int firstEntityIndex)
         {
@@ -51,8 +51,8 @@ public class RotationSpeedSystem_IJobChunk : SystemBase
         // Explicitly declare:
         // - Read-Write access to Rotation
         // - Read-Only access to RotationSpeed_IJobChunk
-        var rotationType = GetArchetypeChunkComponentType<Rotation>();
-        var rotationSpeedType = GetArchetypeChunkComponentType<RotationSpeed_IJobChunk>(true);
+        var rotationType = GetComponentTypeHandle<Rotation>();
+        var rotationSpeedType = GetComponentTypeHandle<RotationSpeed_IJobChunk>(true);
 
         var job = new RotationSpeedJob()
         {
